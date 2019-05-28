@@ -1,0 +1,50 @@
+---
+title: "Raccomandazioni per l'esame scritto"
+author: "G. M. Marchetti"
+date: "1 giugno 2019"
+output:
+  pdf_document: default
+  html_document:
+    highlight: haddock
+    theme: cosmo
+---
+
+```{r echo = FALSE}
+library(knitr)
+options(replace.assign=FALSE,width=80, digits = 4)
+opts_chunk$set(comment = NA, message = FALSE, fig.width = 2, fig.height = 2)
+
+knit_hooks$set(par=function(before, options, envir){
+              if (before && options$fig.show != 'none') par(cex = 0.8, mar=c(4,4,.1,.1),cex.lab=.95,cex.axis=.9,mgp=c(2,.7,0),tcl=-.3)}, crop=hook_pdfcrop)
+```
+
+
+
+* Portare una calcolatrice e imparare a usarla! Informarsi su come si cambia il numero di decimali impostati.
+
+* Niente telefonini
+
+* Le liste di esame compariranno su moodle poco prima della data. Vi diranno in quale aula sarete. Sarete chiamati per nome prima di entrare.
+
+* All'esame avrete 
+  - il testo del compito
+  - le tavole
+  - il formulario
+  - un foglio per scrivere gli svolgimenti delle domande
+  - un foglio da tenersi per annotarsi le risposte date e la _fila del compito_
+
+* Attenzione particolare alle domande vero/falso. Non fatele se non siete sicuri. 
+
+* Avete 1 ora e 15 min. Alla fine dove restituire  tutti i fogli tranne quello per annotare le risposte che vi servirà per la verifica. Preparate un pacchetto _non dei fogli sfusi_. 
+
+* Alla fine del tempo: ricordatevi di annotare la fila del compito, di scrivere il proprio nome sui fogli, di _non fare domande mentre l'insegnante ritira i compiti, ma aspettare dopo_. 
+
+*  Verso la fine mattinata troverete le soluzioni del compito su moodle.  
+
+* Il risultato del voto dello scritto apparirà su moodle dopo un giorno o più a seconda del numero di iscritti. 
+
+* La data dell'orale, l'aula e la lista degli iscritti con l'orario compare su moodle alla fine. 
+
+* All'orale viene fatta una sola domanda e il voto finale tiene conto sia dello scritto che dell'orale. 
+
+* Tutti anche i non ammessi possono chiedere di vedere il compito nei giorni di esame.
